@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    color: #303C4B; 
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.hero{
+    background-image: url("images/danfo.jpg");
+    background-size: cover;
+    background-position: bottom left; ;
+    height: 80vh;
+    padding: 5px 50px;
+}
+
+.hero h1{
+    margin-top: 90px;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 5px;
+}
+
+#hero-title{
+    color: #fbc301;
+}
+
+.title-2{
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-size: 40px;
+    margin: 10px auto;
+}
+
+h3{
+    color: #1d3557;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+
+}
+
+img{
+    width: 150px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 3px solid #fbc301;
+}
+
+.activity-title{
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #eeeeee;
+    font-size: 1.3rem;
+    color: #1d3557;
+    font-size: 40px;
+    text-align: center;
+}
+
+.activities{
+    display: flex;
+    background: #eeeeee;
+    align-items: center;
+    width: 100%;
+    height: 380px;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.activity{
+    width: 300px;
+}
+
+.activity:hover{
+    border-bottom: 10px solid #ffb703;
+}
+
+.guide-section { 
+    background-color: #ffb703;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px; 
+    margin: 50px auto;
+    width: 400px;
+    color: #023047;
+    border-radius: 20px;
+    border-bottom: 12px solid #ffd60a;
+}
+
+.guide{
+    color: #1d3557;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+
+}
+
+/* .guide:hover{
+    background-color: #023047;
+    color: #ffd60a; 
+} */
+
+.guide-img{
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;  
+    margin: 20px 10px;
+    border: 3px solid #ffd60a;
+}
+
+h4{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.guide-section:hover{
+    background-color: #023047;
+    color: #ffd60a;
+}
